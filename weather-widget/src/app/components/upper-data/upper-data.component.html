@@ -1,0 +1,9 @@
+
+<div class="weather-status">
+    <mat-icon svgIcon="sunny" class="sunny" *ngIf="14 < 15"></mat-icon>
+</div>
+
+<div class="weather-data">
+    <div class="loaction">Tbilisi</div>
+    <div class="temperature">{{(weatherTemp?.temp - 273.15)  | number: '1.0-0'}}°C</div>
+</div>

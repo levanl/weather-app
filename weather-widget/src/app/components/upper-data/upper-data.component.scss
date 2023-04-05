@@ -1,0 +1,30 @@
+.sunny {
+    width: 200px;
+    height: 200px;
+}
+
+.weather-data {
+    position: relative;
+    z-index:  1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  
+}
+
+.location {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.temperature {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
